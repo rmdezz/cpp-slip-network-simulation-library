@@ -2,7 +2,7 @@
 #include <iostream>
 #include <time.h>
 #include <Windows.h>
-#include "datetime_manipulator.h"
+#include "datetime_formatter.h"
 #include <sstream>
 #include "messagePipe.h"
 
@@ -188,6 +188,7 @@ bool EncryptModule::encryptData(Node* current)
 	cleanup(ctx, encryptedData);
 
 	sendMessage("Packet encrypted successfully.");
+	return true;
 }
 
 /*

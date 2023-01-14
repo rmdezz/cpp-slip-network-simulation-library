@@ -295,7 +295,7 @@ void Divert::receivePackets()
             if (lastError == ERROR_INVALID_HANDLE || lastError == ERROR_OPERATION_ABORTED)
             {
                 // If the handle was closed or the operation was aborted, exit the function.
-                cout << "Receive packets thread finished." << endl;
+                sendMessage("Receive packets thread finished.");
 
                 // Free the allocated memory
                 delete[] packetBuffer;
@@ -591,9 +591,44 @@ void Divert::SleepIfNotEnoughTimeElapsed(DWORD startTick, DWORD minTime)
     }
 }
 
-Module* const* Divert::getModules() const
+Module* const* Divert::getModules()
 {
     return modules;
+}
+
+Module* Divert::getLagModule()
+{
+    return lagModule;
+}
+
+Module* Divert::getDropModule()
+{
+    return dropModule;
+}
+
+Module* Divert::getThrottleModule()
+{
+    return throttleModule;
+}
+
+Module* Divert::getDuplicateModule()
+{
+    return duplicatorModule;
+}
+
+Module* Divert::getShuffleModule()
+{
+    return shuffleModule;
+}
+
+Module* Divert::getEncryptModule()
+{
+    return encryptModule;
+}
+
+Module* Divert::getTrafficShaperModule()
+{
+    return trafficShaperModule;
 }
 
 std::thread& Divert::getReceivePacketsThread()

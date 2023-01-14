@@ -46,8 +46,6 @@ class Divert
 		bool processPacket(char* packetBuffer, UINT readLength, WINDIVERT_ADDRESS* addressBuffer); //
 		bool isPacketTruncated(UINT readLen, UINT maxPacketSize); //
 		bool processPacketIfNotStopped(Packet& packet); //
-		void free_and_exit(char*& packetBuffer, WINDIVERT_ADDRESS*& addressBuffer); 
-
 
 		void processPacketsPeriodically();
 		void SleepIfNotEnoughTimeElapsed(DWORD startTick, DWORD minTime);
@@ -57,9 +55,18 @@ class Divert
 
 		static const int MODULE_COUNT = 7;
 
-		Module* const* getModules() const;
+		static Module* const* getModules();
+		static Module* getLagModule();
+		static Module* getDropModule();
+		static Module* getThrottleModule();
+		static Module* getDuplicateModule();
+		static Module* getShuffleModule();
+		static Module* getEncryptModule();
+		static Module* getTrafficShaperModule();
+
 		std::thread& getReceivePacketsThread();
 		std::thread& getProcessPacketsThread();
+
 
 	private:
 		static Module* lagModule;

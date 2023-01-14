@@ -135,7 +135,7 @@ copy /y "$(ProjectDir)lib\windivert\WinDivert64.sys" "$(OutDir)"
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;SLIPDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
@@ -147,50 +147,67 @@ copy /y "$(ProjectDir)lib\windivert\WinDivert64.sys" "$(OutDir)"
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="datetime_manipulator.h" />
+    <ClInclude Include="datetime_formatter.h" />
     <ClInclude Include="Divert.h" />
+    <ClInclude Include="DropHelper.h" />
     <ClInclude Include="DropModule.h" />
+    <ClInclude Include="DuplicateHelper.h" />
     <ClInclude Include="DuplicationModule.h" />
+    <ClInclude Include="EncryptHelper.h" />
     <ClInclude Include="EncryptModule.h" />
+    <ClInclude Include="EventsHelper.h" />
     <ClInclude Include="GlobalVar.h" />
-    <ClInclude Include="Helper.h" />
+    <ClInclude Include="LagHelper.h" />
     <ClInclude Include="LagList.h" />
     <ClInclude Include="LagModule.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="messagePipe.h" />
     <ClInclude Include="Module.h" />
+    <ClInclude Include="ModuleHelper.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Packet.h" />
     <ClInclude Include="PacketList.h" />
+    <ClInclude Include="ShuffleHelper.h" />
     <ClInclude Include="ShuffleList.h" />
     <ClInclude Include="ShuffleModule.h" />
-    <ClInclude Include="slipDLL.h" />
+    <ClInclude Include="NetSimulatorAPI.h" />
+    <ClInclude Include="ThrottleHelper.h" />
     <ClInclude Include="ThrottleList.h" />
     <ClInclude Include="ThrottleModule.h" />
+    <ClInclude Include="TrafficShaperHelper.h" />
     <ClInclude Include="TrafficShaperModule.h" />
     <ClInclude Include="windivert.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="datetime_manipulator.cpp" />
+    <ClCompile Include="datetime_formatter.cpp" />
     <ClCompile Include="Divert.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="DropHelper.cpp" />
     <ClCompile Include="DropModule.cpp" />
+    <ClCompile Include="DuplicateHelper.cpp" />
     <ClCompile Include="DuplicationModule.cpp" />
+    <ClCompile Include="EncryptHelper.cpp" />
     <ClCompile Include="EncryptModule.cpp" />
+    <ClCompile Include="EventsHelper.cpp" />
     <ClCompile Include="GlobalVar.cpp" />
-    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="LagHelper.cpp" />
     <ClCompile Include="LagList.cpp" />
     <ClCompile Include="LagModule.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="messagePipe.cpp" />
     <ClCompile Include="Module.cpp" />
+    <ClCompile Include="ModuleHelper.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Packet.cpp" />
     <ClCompile Include="PacketList.cpp" />
+    <ClCompile Include="PipeClientHelper.cpp" />
+    <ClCompile Include="ShuffleHelper.cpp" />
     <ClCompile Include="ShuffleList.cpp" />
     <ClCompile Include="ShuffleModule.cpp" />
+    <ClCompile Include="ThrottleHelper.cpp" />
     <ClCompile Include="ThrottleList.cpp" />
     <ClCompile Include="ThrottleModule.cpp" />
+    <ClCompile Include="TrafficShaperHelper.cpp" />
     <ClCompile Include="TrafficShaperModule.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

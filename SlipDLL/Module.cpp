@@ -17,7 +17,7 @@ Module::Module(PacketList& packetList) : packetList(packetList)
 	enabledFlag = false;
 	lastEnabled = false;
 	processTriggered = false;
-	chance = 45;
+	chance = 0;
 	enabledChance = false;
 	inbound = true;
 	outbound = true;

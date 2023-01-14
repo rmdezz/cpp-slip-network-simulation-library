@@ -16,153 +16,252 @@
     <Filter Include="Source Files\Modules">
       <UniqueIdentifier>{df724e32-181b-43f8-bfa8-df5cfd3da19c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Lists">
-      <UniqueIdentifier>{90309d70-7579-450e-88a2-8c1cc49e3da3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\PacketList">
-      <UniqueIdentifier>{ea30de25-6b1f-43f8-b1ad-bb092894645a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Modules">
       <UniqueIdentifier>{3683081c-4709-4d2b-9bf2-af420f13151c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\PacketList">
-      <UniqueIdentifier>{739fe6b7-38b2-4f52-ba2a-7efbb43e57a0}</UniqueIdentifier>
+    <Filter Include="Source Files\Modules\Lag">
+      <UniqueIdentifier>{ee463338-239f-40fd-b6cd-a4fe1ebd1ab0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Lists">
-      <UniqueIdentifier>{811c5e2e-f63f-4f0e-88c4-ab8419534d1f}</UniqueIdentifier>
+    <Filter Include="Source Files\Modules\Drop">
+      <UniqueIdentifier>{49f2e33b-9745-492e-b5d1-0453eb35a9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Throttle">
+      <UniqueIdentifier>{2f930d07-76a1-4763-9265-977b988d0424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Duplicate">
+      <UniqueIdentifier>{0bc7985a-5458-4bb6-894e-54bbd08d5d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Encrypt">
+      <UniqueIdentifier>{3e878263-ca2a-4c86-8517-111e56739219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Shuffle">
+      <UniqueIdentifier>{1d617865-4f96-489b-9dd1-795589051b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\TrafficShaper">
+      <UniqueIdentifier>{b14bf5ee-47a8-45b4-aa8a-f2f50a7983b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structures">
+      <UniqueIdentifier>{a0351f4a-7c32-4e6b-bfce-4e2c0c428018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{3a301f78-caa7-476c-bc76-68666ba96116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{7edb3b01-50e3-40a6-a070-2bb0cf3fac52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main">
+      <UniqueIdentifier>{b2d471e2-6d7f-42e6-a225-67892d37ad02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{1483d1e1-d3e8-404b-b154-318dd9cdc69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\Drop">
+      <UniqueIdentifier>{65eacc1b-bbc6-4066-9b95-1b6caf80d150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\Duplicate">
+      <UniqueIdentifier>{aca878c6-50f9-4994-9827-eda4604e12e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\Encrypt">
+      <UniqueIdentifier>{48a09ca9-6670-460d-976f-abf1704f464e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\Shuffle">
+      <UniqueIdentifier>{ce3998c7-32bf-454f-92bc-5e50a1c7dbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\TrafficShaper">
+      <UniqueIdentifier>{43ba758b-34ed-4209-8359-532db34206f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\Throttle">
+      <UniqueIdentifier>{0bc72f61-a8c8-4b62-9452-e87ee6663581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\Lag">
+      <UniqueIdentifier>{17743208-de37-42a4-9130-c8d8a12d02e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structures">
+      <UniqueIdentifier>{d473191e-82f0-4b9a-a114-e849529f3471}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="slipDLL.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="messagePipe.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="datetime_manipulator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Divert.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GlobalVar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="windivert.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DropModule.h">
-      <Filter>Header Files\Modules</Filter>
-    </ClInclude>
-    <ClInclude Include="DuplicationModule.h">
-      <Filter>Header Files\Modules</Filter>
-    </ClInclude>
-    <ClInclude Include="EncryptModule.h">
-      <Filter>Header Files\Modules</Filter>
-    </ClInclude>
-    <ClInclude Include="LagList.h">
-      <Filter>Header Files\Lists</Filter>
-    </ClInclude>
-    <ClInclude Include="LagModule.h">
-      <Filter>Header Files\Modules</Filter>
-    </ClInclude>
-    <ClInclude Include="List.h">
-      <Filter>Header Files\Lists</Filter>
     </ClInclude>
     <ClInclude Include="Module.h">
       <Filter>Header Files\Modules</Filter>
     </ClInclude>
-    <ClInclude Include="Node.h">
-      <Filter>Header Files\PacketList</Filter>
+    <ClInclude Include="Divert.h">
+      <Filter>Header Files\Main</Filter>
     </ClInclude>
-    <ClInclude Include="Packet.h">
-      <Filter>Header Files\PacketList</Filter>
+    <ClInclude Include="GlobalVar.h">
+      <Filter>Header Files\Main</Filter>
     </ClInclude>
-    <ClInclude Include="PacketList.h">
-      <Filter>Header Files\PacketList</Filter>
+    <ClInclude Include="messagePipe.h">
+      <Filter>Header Files\Main</Filter>
     </ClInclude>
-    <ClInclude Include="ShuffleList.h">
-      <Filter>Header Files\Lists</Filter>
+    <ClInclude Include="NetSimulatorAPI.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DropModule.h">
+      <Filter>Header Files\Modules\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="DuplicationModule.h">
+      <Filter>Header Files\Modules\Duplicate</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptHelper.h">
+      <Filter>Header Files\Modules\Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptModule.h">
+      <Filter>Header Files\Modules\Encrypt</Filter>
     </ClInclude>
     <ClInclude Include="ShuffleModule.h">
-      <Filter>Header Files\Modules</Filter>
-    </ClInclude>
-    <ClInclude Include="ThrottleList.h">
-      <Filter>Header Files\Lists</Filter>
-    </ClInclude>
-    <ClInclude Include="ThrottleModule.h">
-      <Filter>Header Files\Modules</Filter>
+      <Filter>Header Files\Modules\Shuffle</Filter>
     </ClInclude>
     <ClInclude Include="TrafficShaperModule.h">
+      <Filter>Header Files\Modules\TrafficShaper</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrottleModule.h">
+      <Filter>Header Files\Modules\Throttle</Filter>
+    </ClInclude>
+    <ClInclude Include="LagModule.h">
+      <Filter>Header Files\Modules\Lag</Filter>
+    </ClInclude>
+    <ClInclude Include="DropHelper.h">
+      <Filter>Header Files\Modules\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="DuplicateHelper.h">
+      <Filter>Header Files\Modules\Duplicate</Filter>
+    </ClInclude>
+    <ClInclude Include="LagHelper.h">
+      <Filter>Header Files\Modules\Lag</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrottleHelper.h">
+      <Filter>Header Files\Modules\Throttle</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficShaperHelper.h">
+      <Filter>Header Files\Modules\TrafficShaper</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleHelper.h">
       <Filter>Header Files\Modules</Filter>
     </ClInclude>
-    <ClInclude Include="Helper.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="ShuffleHelper.h">
+      <Filter>Header Files\Modules\Shuffle</Filter>
+    </ClInclude>
+    <ClInclude Include="LagList.h">
+      <Filter>Header Files\Modules\Lag</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuffleList.h">
+      <Filter>Header Files\Modules\Shuffle</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrottleList.h">
+      <Filter>Header Files\Modules\Throttle</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketList.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="datetime_formatter.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="EventsHelper.h">
+      <Filter>Header Files\Tools</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="datetime_manipulator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="messagePipe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Divert.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GlobalVar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DropModule.cpp">
-      <Filter>Source Files\Modules</Filter>
-    </ClCompile>
-    <ClCompile Include="DuplicationModule.cpp">
-      <Filter>Source Files\Modules</Filter>
-    </ClCompile>
-    <ClCompile Include="EncryptModule.cpp">
-      <Filter>Source Files\Modules</Filter>
-    </ClCompile>
     <ClCompile Include="Module.cpp">
       <Filter>Source Files\Modules</Filter>
     </ClCompile>
     <ClCompile Include="LagModule.cpp">
+      <Filter>Source Files\Modules\Lag</Filter>
+    </ClCompile>
+    <ClCompile Include="DropModule.cpp">
+      <Filter>Source Files\Modules\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrottleModule.cpp">
+      <Filter>Source Files\Modules\Throttle</Filter>
+    </ClCompile>
+    <ClCompile Include="DuplicationModule.cpp">
+      <Filter>Source Files\Modules\Duplicate</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptModule.cpp">
+      <Filter>Source Files\Modules\Encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuffleModule.cpp">
+      <Filter>Source Files\Modules\Shuffle</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficShaperModule.cpp">
+      <Filter>Source Files\Modules\TrafficShaper</Filter>
+    </ClCompile>
+    <ClCompile Include="DropHelper.cpp">
+      <Filter>Source Files\Modules\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuffleHelper.cpp">
+      <Filter>Source Files\Modules\Shuffle</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrottleHelper.cpp">
+      <Filter>Source Files\Modules\Throttle</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficShaperHelper.cpp">
+      <Filter>Source Files\Modules\TrafficShaper</Filter>
+    </ClCompile>
+    <ClCompile Include="DuplicateHelper.cpp">
+      <Filter>Source Files\Modules\Duplicate</Filter>
+    </ClCompile>
+    <ClCompile Include="LagHelper.cpp">
+      <Filter>Source Files\Modules\Lag</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuffleList.cpp">
+      <Filter>Source Files\Modules\Shuffle</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrottleList.cpp">
+      <Filter>Source Files\Modules\Throttle</Filter>
+    </ClCompile>
+    <ClCompile Include="LagList.cpp">
+      <Filter>Source Files\Modules\Lag</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptHelper.cpp">
+      <Filter>Source Files\Modules\Encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleHelper.cpp">
       <Filter>Source Files\Modules</Filter>
     </ClCompile>
     <ClCompile Include="List.cpp">
-      <Filter>Source Files\Lists</Filter>
-    </ClCompile>
-    <ClCompile Include="Packet.cpp">
-      <Filter>Source Files\PacketList</Filter>
+      <Filter>Source Files\Structures</Filter>
     </ClCompile>
     <ClCompile Include="Node.cpp">
-      <Filter>Source Files\PacketList</Filter>
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files\Structures</Filter>
     </ClCompile>
     <ClCompile Include="PacketList.cpp">
-      <Filter>Source Files\PacketList</Filter>
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="ShuffleList.cpp">
-      <Filter>Source Files\Lists</Filter>
+    <ClCompile Include="Divert.cpp">
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="ShuffleModule.cpp">
-      <Filter>Source Files\Modules</Filter>
+    <ClCompile Include="GlobalVar.cpp">
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="LagList.cpp">
-      <Filter>Source Files\Lists</Filter>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="ThrottleList.cpp">
-      <Filter>Source Files\Lists</Filter>
+    <ClCompile Include="messagePipe.cpp">
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="ThrottleModule.cpp">
-      <Filter>Source Files\Modules</Filter>
+    <ClCompile Include="datetime_formatter.cpp">
+      <Filter>Source Files\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="TrafficShaperModule.cpp">
-      <Filter>Source Files\Modules</Filter>
+    <ClCompile Include="EventsHelper.cpp">
+      <Filter>Source Files\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Helper.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="PipeClientHelper.cpp">
+      <Filter>Source Files\Tools</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
