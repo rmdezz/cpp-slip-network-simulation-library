@@ -40,6 +40,7 @@ any dependencies.
 - WinDivert64.sys
 - libcrypto-3-x64.dll
 - PipeReader.dll
+- PipeReader.lib
 - pipe_reader.h
 
 2. **Using the library:**
